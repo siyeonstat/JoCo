@@ -1,4 +1,4 @@
-psuedo_gen <- function(data, treatment, outcome, id, idcreate = T,
+pseudo_gen <- function(data, treatment, outcome, id, idcreate = T,
                         stage, sample_time = 10, fit, truncate = F, tau, seed = NULL){
   
   set.seed(seed)
